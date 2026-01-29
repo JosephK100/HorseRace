@@ -3,7 +3,10 @@ Joseph Kloepper
 Fourth Lab for CSC121
 
 # Algorithm/Pseudocode
-HorseRace
+
+
+
+
 
 -Functions-
     void advance(int horseNum, int* horses);
