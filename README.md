@@ -3,6 +3,7 @@ Joseph Kloepper
 Fourth Lab for CSC121
 
 # Algorithm/Pseudocode
+HorseRace
 
 -Functions-
     void advance(int horseNum, int* horses);
@@ -20,10 +21,17 @@ Fourth Lab for CSC121
         Otherwise, return false.
         Whichever horse makes it to the end first wins. 
         Maybe I could loop the victory message through this part as well. 
-
-    Decide weather or not a horse moves up by picking a random number from 1-100.
-    If that number is even, the horse moves up. If it's odd, the horse stays for that turn. 
-    Create sime kind of turn counter. 
-    Once a horse reaches the finish line (gets enough integers, the race ends and the vitory message is printed. No more turns after that. 
-    I'll likely have to use a keepGoing loop, like in the alst labs. 
+    main()
+        Create an array of horses with 5 zeros.
+        Create a "turn" counter -> goes up each time "enter" is hit.
+        Set turns = 0  
+        Set the keepGoing loop to true.
+        Whille keepGong:
+            Wait for user input, which will be the enter key.
+            Call the advance function. 
+            Call the printLane function.
+            (Add +1 to the "turns" counter.) 
+                If the isWinner function returns true:
+                    print the victory message for whichever horse.
+                    set keepGoing to false, ending the loop. 
 
