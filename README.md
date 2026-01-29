@@ -33,4 +33,4 @@ Fourth Lab for CSC121
                 If the isWinner function returns true:
                     print the victory message for whichever horse.
                     set keepGoing to false, ending the loop. 
-
+'''
