@@ -3,11 +3,7 @@ Joseph Kloepper
 Fourth Lab for CSC121
 
 # Algorithm/Pseudocode
-~
-~
-~
-~
-~
+'''
 -Functions-
     void advance(int horseNum, int* horses);
         I'm going to try to do the randomization by generating a number from 1-100.
